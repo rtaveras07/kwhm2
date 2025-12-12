@@ -6,12 +6,12 @@ const configButton = document.getElementById('configButton');
 
 var diasFacturacion = 0;// los dias establecidos para la fkacturacion por la empresa 30 dias 
 var consumo = 0;
-var precioRango1 = 4.44; // hasta 200 kw
-var precioRango2 = 6.97;// de 201 a 300
-var precioRango3 = 10.86; // de 301 a 700 
-var precioRango4 = 11.10;// de 700 en adelante. 
+var precioRango1 = 5.97; // hasta 200 kw
+var precioRango2 = 8.51;// de 201 a 300
+var precioRango3 = 13.83; // de 301 a 700 
+var precioRango4 = 18.10;// de 700 en adelante. 
 
-var cargofijo2 = 137.25 // si su sonsumo es mayor o igual a 100 kw al mes. 
+var cargofijo2 = 126.81 // si su sonsumo es mayor o igual a 100 kw al mes. 
 var cargofijo1 = 37.95  // si su consumo es inferior a 100 kw 
 
 var consumofinal1=0; //variables para guardar el valor en consumo kwh segun el rango de consumo. 
